@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wakulima farmers registration</title>
+</head>
+<body>
+    <h1 align="center">Wakulima Farmers Registration</h1>
+
+<marquee behavior="scroll" direction="left" scrollamount="8">
+     <img src="images/farm.jpg"
+         alt="farm"
+         width="250"
+         height="150">
+
+    <img src="images/crops.jpg"
+         alt="crops"
+         width="250"
+         height="150">
+
+    <img src="images/workers.jpg"
+         alt="workers"
+         width="250"
+         height="150">
+
+    <img src="images/farm crops.jpg"
+         alt="farm crops"
+         width="250"
+         height="150">
+
+</marquee>
+    <p>This registration form is to all farmers within the cooperative society inorder to keep acurate Records of their supplies</p>
+    <fieldset>
+        <legend>Personal Information</legend>
+                <label for="First name">First Name:</label>
+                <input type="text" id="First name" name="First name" required><br><br>
+                <label for="Last name">Last Name:</label>
+                <input type="text" id="Last name" name="Last name" required><br><br>
+            <label for="IDNumber">ID Number:</label>
+            <input type="text" id="IDNumber" name="IDNumber" required><br><br>
+            <label for="DOB">Date of Birth:</label>
+            <input type="date" id="DOB" name="DOB" required><br><br>
+           <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="phone">Telephone:</label>
+            <input type="tel" id="phone" name="phone" required><br><br>
+            <label for="passport" >Passport:</label>
+            <input type="file" id="passport" name="passport" accept="image/*" required><br><br>
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label>
+</fieldset>
+</form>
+<fieldset>
+    <legend> Produce Supplied</legend>
+    <label for ="months">Months of Supply:</label>
+    <select id="months" name="months" required>
+        <option value="">May</option>
+        <option value="">August</option>
+        <option value="">December</option>
+    </select><br><br>
+    <label for="produce">Type of Produce:</label><br>
+    <input type="checkbox" id="maize" name="produce" value="maize">
+    <label for="maize">Maize</label>
+    <input type="checkbox" id="beans" name="produce" value="beans">
+    <label for="beans">Beans</label>
+    <input type="checkbox" id="potatoes" name="produce" value="potatoes">
+    <label for="potatoes">Potatoes</label>
+    <input type="checkbox" id="peas" name="produce" value="peas">
+    <label for="peas">Peas</label>
+    </fieldset>
+    <br>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+<fieldset> 
